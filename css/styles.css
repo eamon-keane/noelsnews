@@ -1,0 +1,229 @@
+:root {
+    --blue: #2e51cb;
+    --yellow: #ffc107;
+    --darkyellow: #e68a00;
+
+}
+
+body {
+    display: block;
+    margin: 0;
+
+}
+
+@media (min-width:300px) {
+    .footer-grid-item-1{
+        font-size: 14px;
+    }
+    .facebook {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 18px;
+    }
+    
+    
+    .twitter {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 18px;
+    }
+    
+    .whatsapp {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 18px;
+    }
+  }
+
+  @media (min-width:400px) {
+    .footer-grid-item-1{
+        font-size: 14px;
+    }
+    .facebook {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 24px;
+    }
+    
+    
+    .twitter {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 24px;
+    }
+    
+    .whatsapp {
+        color: var(--yellow);
+        margin: 8px;
+        font-size: 24px;
+    }
+  }
+
+
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 415px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-height: 860px;
+    background-color: var(--yellow);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header {
+    position: relative;
+    height: calc((var(--vh, 1vh) * 25) - 50px);
+    max-height: 197px;
+    background-color: var(--blue);
+
+}
+
+footer {
+    width: 100%;
+    max-width: 415px;
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+
+#main-header-text {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    color: var(--yellow);
+    text-shadow: 3px 3px #000099;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-subtext {
+    position: absolute;
+    font-size: 14px;
+    bottom: 5px;
+    right: 5px;
+    margin-right: 5px;
+    color: var(--yellow);
+    font-weight: 400;
+}
+
+#header-subtext>a{
+    color: var(--yellow);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: minmax(120px, 180px) minmax(120px, 180px);
+    grid-template-rows: auto auto auto auto auto;
+    height: calc((var(--vh, 1vh) * 75) - 0px);
+    max-height: 610px;
+    margin: 0 5px;
+    padding-bottom:50px;
+    background-color: var(--yellow);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.grid-container>div {
+    padding: 12px 5px;
+    background-color: var(--blue);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--yellow);
+    border-radius: 15px;
+    box-shadow: 4px 4px var(--darkyellow);
+}
+
+.grid-item:active {
+    transform: translateY(2px)
+}
+
+.grid-item:hover {
+    cursor: pointer;
+}
+
+.social-media {
+    height:inherit;
+    line-height: inherit;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    border: solid red 1px;
+}
+
+.social-media>a {
+    margin: 5px;
+}
+
+.facebook {
+    color: var(--yellow);
+    margin: 8px;
+
+}
+
+
+.twitter {
+    color: var(--yellow);
+    margin: 8px;
+}
+
+.whatsapp {
+    color: var(--yellow);
+    margin: 8px;
+}
+
+.creator {
+    line-height: inherit;
+    height: inherit;
+    font-size: 6px;
+    color: white;
+    margin-right: 5px;
+    word-break:break-all;
+
+}
+
+.my-instagram{
+    color: white;
+}
+
+.footer-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr; /* fraction*/
+    height: 50px;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  #header-createdby{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin-right: 5px;
+    color: var(--yellow);
+    font-size: 12px;
+}
+
+/* .footer-grid-item-1{
+    font-size: 16px;
+} */

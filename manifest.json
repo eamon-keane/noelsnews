@@ -1,0 +1,30 @@
+{
+    "name": "Noel's News",
+    "short_name": "Noel's News",
+    "icons": [{
+        "src": "images/apple-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "images/apple-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "images/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }, {
+        "src": "images/256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "images/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#2e51cb",
+    "theme_color": "#2e51cb"
+  }
