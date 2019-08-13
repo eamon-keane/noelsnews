@@ -1,7 +1,7 @@
 # noelsnews
 Example of a Progressive Web App; A Simple soundboard made using html, css and vanilla JS. 
 
-A simple Web App I made for fun. It uses a service worker to cache the site contents to that it can be used offline.
+A simple Web App I made for fun. It uses a service worker to cache the site contents so that it can be used offline.
 
 It can also be installed on a device similarly to a native app. 
 
